@@ -9,15 +9,15 @@ use inc::Module::Install;
 abstract 'Perl module filesystem partition identification.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
-name 'Filesystem-Partition';
+name 'FileSystem-Partition';
 #requires 'Cwd' => 0;
 #requires 'English' => 0;
 #requires 'Exporter' => 0;
 #requires 'List::MoreUtils' => 0;
 #requires 'Readonly' => 0;
 resources 'repository' => {
-	'url' => 'git://github.com/tupinek/Filesystem-Partition',
-	'web' => 'https://github.com/tupinek/Filesystem-Partition',
+	'url' => 'git://github.com/tupinek/FileSystem-Partition',
+	'web' => 'https://github.com/tupinek/FileSystem-Partition',
 	'type' => 'git',
 };
 #test_requires 'Cwd' => 0;
