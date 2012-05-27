@@ -1,0 +1,27 @@
+---
+abstract: 'Perl module filesystem partition identification.'
+author:
+  - 'Michal Špaček <skim@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.36
+configure_requires:
+  ExtUtils::MakeMaker: 6.36
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: bsd
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: FileSystem-Partition
+no_index:
+  directory:
+    - inc
+    - t
+resources:
+  license: http://opensource.org/licenses/bsd-license.php
+  repository:
+    type: git
+    url: git://github.com/tupinek/FileSystem-Partition
+    web: https://github.com/tupinek/FileSystem-Partition
+version: 0.01
