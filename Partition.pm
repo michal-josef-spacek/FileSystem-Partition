@@ -100,6 +100,83 @@ sub _load {
 
 1;
 
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+FileSystem::Partition - Perl module for filesystem informations.
+
+=head1 SYNOPSIS
+
+ use FileSystem::Partition;
+ TODO
+
+=head1 SUBROUTINES
+
+=over 8
+
+=item B<new(%parameters)>
+
+ Constructor.
+
+=over 8
+
+=back
+
+=item B<get()>
+
+ TODO
+
+=item B<wikipedia_version()>
+
+ TODO
+
+=back
+
+=head1 EXAMPLE1
+
+ # Pragmas.
+ use strict;
+ use warnings;
+
+ # Modules.
+ use FileSystem::Partition;
+
+ TODO
+
+=head1 DEPENDENCIES
+
+L<English>,
+L<Error::Pure::Utils>,
+L<Exporter>,
+L<Readonly>.
+
+=head1 SEE ALSO
+
+TODO
+
+=head1 REPOSITORY
+
+L<https://github.com/tupinek/FileSystem-Partition>
+
+=head1 AUTHOR
+
+Michal Špaček L<mailto:skim@cpan.org>
+
+L<http://skim.cz>
+
+=head1 LICENSE AND COPYRIGHT
+
+BSD license.
+
+=head1 VERSION
+
+0.01
+
+=cut
+
 __DATA__
 Partition ID,Introduction,Support,Description
 0x00,IBM,All,Empty partition entry
