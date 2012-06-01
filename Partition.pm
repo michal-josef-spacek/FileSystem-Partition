@@ -186,9 +186,9 @@ Partition ID,Introduction,Support,Description
 0x04,Microsoft,DOS 3.0+,"FAT16 with less than 65536 sectors (32 MB). As primary partition it must reside in first physical 32 MB of disk, or as logical drive anywhere on disk (else use 0x06 instead)."
 0x05,IBM,"DOS (3.2) 3.3+","Extended partition with CHS addressing"
 0x06,Compaq,"DOS 3.31+","FAT16B with 65536 or more sectors. It must reside in first physical 8 GB of disk, unless used for logical drives in an 0x0F extended partition (else use 0x0E instead). Also used for FAT12 and FAT16 volumes in primary partitions if they are not residing in first physical 32 MB of disk."
+0x07,Microsoft,Windows NT,NTFS
 0x07,"Microsoft, IBM","OS/2","IFS"
 0x07,IBM,"OS/2, Windows NT",HPFS
-0x07,Microsoft,Windows NT,NTFS
 0x07,Microsoft,Windows Embedded CE,exFAT
 0x07,,Advanced Unix,
 0x07,Quantum Software Systems,QNX 2,"QNX ""qnx"" (pre-1988 only)"
@@ -293,8 +293,8 @@ Partition ID,Introduction,Support,Description
 0x56,AT&T,AT&T MS-DOS 3.x,Logical sectored FAT12 or FAT16
 0x56,MicroHouse / StorageSoft,EZ-Drive,DiskManager partition converted to EZ-BIOS
 0x56,Golden Bow,VFeature,VFeature partitionned volume
-0x57,MicroHouse / StorageSoft,DrivePro,
 0x57,Novell,,VNDI partition
+0x57,MicroHouse / StorageSoft,DrivePro,
 0x5C,Priam,EDISK,Priam EDisk Partitioned Volume (see also 0x45)
 0x64,Novell,NetWare,NetWare File System 286
 0x65,Novell,NetWare,NetWare File System 386
