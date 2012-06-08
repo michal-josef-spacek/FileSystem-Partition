@@ -111,7 +111,9 @@ FileSystem::Partition - Perl module for filesystem informations.
 =head1 SYNOPSIS
 
  use FileSystem::Partition;
- TODO
+ my $obj = FileSystem::Partition->new(%parameters);
+ my $fs_hr = $obj->get([$id]);
+ my $wikipedia_url = $obj->wikipedia_version;
 
 =head1 SUBROUTINES
 
@@ -125,9 +127,10 @@ FileSystem::Partition - Perl module for filesystem informations.
 
 =back
 
-=item B<get()>
+=item B<get([$id])>
 
- TODO
+ Get filesystem informations for one or all ids.
+ Returns reference to hash structure with infor TODO
 
 =item B<wikipedia_version()>
 
