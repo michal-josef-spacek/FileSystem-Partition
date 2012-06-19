@@ -15,11 +15,10 @@ name 'FileSystem-Partition';
 #requires 'Exporter' => 0;
 #requires 'List::MoreUtils' => 0;
 #requires 'Readonly' => 0;
-resources 'repository' => {
-	'url' => 'git://github.com/tupinek/FileSystem-Partition',
-	'web' => 'https://github.com/tupinek/FileSystem-Partition',
-	'type' => 'git',
-};
+resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
+	'?Name=FileSystem-Partition';
+resources 'homepage' => 'https://github.com/tupinek/FileSystem-Partition';
+resources 'repository' => 'git://github.com/tupinek/FileSystem-Partition';
 #test_requires 'Cwd' => 0;
 #test_requires 'English' => 0;
 #test_requires 'File::Spec::Functions' => 0;

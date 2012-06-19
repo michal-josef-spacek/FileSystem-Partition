@@ -19,9 +19,8 @@ no_index:
     - inc
     - t
 resources:
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=FileSystem-Partition
+  homepage: https://github.com/tupinek/FileSystem-Partition
   license: http://opensource.org/licenses/bsd-license.php
-  repository:
-    type: git
-    url: git://github.com/tupinek/FileSystem-Partition
-    web: https://github.com/tupinek/FileSystem-Partition
+  repository: git://github.com/tupinek/FileSystem-Partition
 version: 0.01
