@@ -1,7 +1,7 @@
 ---
 abstract: 'Perl module filesystem partition identification.'
 author:
-  - 'Michal Špaček <skim@cpan.org>'
+  - 'Michal Spacek <skim@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 6.36
 configure_requires:
