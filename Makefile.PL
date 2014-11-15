@@ -10,11 +10,8 @@ abstract 'Perl module filesystem partition identification.';
 author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'FileSystem-Partition';
-#requires 'Cwd' => 0;
-#requires 'English' => 0;
-#requires 'Exporter' => 0;
-#requires 'List::MoreUtils' => 0;
-#requires 'Readonly' => 0;
+requires 'Class::Utils' => 0.06;
+requires 'Error::Pure' => 0.17;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=FileSystem-Partition';
 resources 'homepage' => 'https://github.com/tupinek/FileSystem-Partition';

@@ -24,6 +24,9 @@ no_index:
   directory:
     - inc
     - t
+requires:
+  Class::Utils: 0.06
+  Error::Pure: 0.17
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=FileSystem-Partition
   homepage: https://github.com/tupinek/FileSystem-Partition
