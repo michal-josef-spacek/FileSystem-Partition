@@ -47,7 +47,7 @@ sub get {
 	}
 }
 
-# Get URL of wikipedia page.
+# Get URL of Wikipedia page.
 sub wikipedia_version {
 	return 'http://en.wikipedia.org/w/index.php?title=Partition_type'.
 		'&oldid=489195494';
