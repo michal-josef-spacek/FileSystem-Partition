@@ -29,7 +29,7 @@ EXAMPLE1
      TODO
 
 DEPENDENCIES
-    English, Error::Pure::Utils, Exporter, Readonly.
+    Class::Utils, Error::Pure.
 
 SEE ALSO
     TODO

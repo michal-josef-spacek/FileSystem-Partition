@@ -151,10 +151,8 @@ FileSystem::Partition - Perl module for filesystem informations.
 
 =head1 DEPENDENCIES
 
-L<English>,
-L<Error::Pure::Utils>,
-L<Exporter>,
-L<Readonly>.
+L<Class::Utils>,
+L<Error::Pure>.
 
 =head1 SEE ALSO
 
