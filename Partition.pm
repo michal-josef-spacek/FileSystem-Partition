@@ -138,7 +138,7 @@ FileSystem::Partition - Perl module for filesystem informations.
 
 =back
 
-=head1 EXAMPLE1
+=head1 EXAMPLE
 
  # Pragmas.
  use strict;
@@ -147,7 +147,17 @@ FileSystem::Partition - Perl module for filesystem informations.
  # Modules.
  use FileSystem::Partition;
 
- TODO
+ # Object.
+ my $obj = FileSystem::Partition->new;
+
+ # Get URL of Wikipedia page..
+ my $url = $obj->wikipedia_version;
+
+ # Print to output.
+ print "Wikipedia URL: $url\n";
+
+ # Output:
+ # Wikipedia URL: http://en.wikipedia.org/w/index.php?title=Partition_type&oldid=489195494
 
 =head1 DEPENDENCIES
 

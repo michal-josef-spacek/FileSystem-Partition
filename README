@@ -18,7 +18,7 @@ SUBROUTINES
     "wikipedia_version()"
              TODO
 
-EXAMPLE1
+EXAMPLE
      # Pragmas.
      use strict;
      use warnings;
@@ -26,7 +26,17 @@ EXAMPLE1
      # Modules.
      use FileSystem::Partition;
 
-     TODO
+     # Object.
+     my $obj = FileSystem::Partition->new;
+
+     # Get URL of Wikipedia page..
+     my $url = $obj->wikipedia_version;
+
+     # Print to output.
+     print "Wikipedia URL: $url\n";
+
+     # Output:
+     # Wikipedia URL: http://en.wikipedia.org/w/index.php?title=Partition_type&oldid=489195494
 
 DEPENDENCIES
     Class::Utils, Error::Pure.
