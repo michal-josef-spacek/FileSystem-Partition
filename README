@@ -18,6 +18,17 @@ SUBROUTINES
     "wikipedia_version()"
              TODO
 
+ERRORS
+     new():
+             Bad number of information columns.
+                     Line: %s
+             Cannot create Text::CSV object.
+                     Error: %s
+             Cannot parse line '%s'.
+                     Error input: %s
+             From Class::Utils::set_params():
+                     Unknown parameter '%s'.
+
 EXAMPLE
      # Pragmas.
      use strict;

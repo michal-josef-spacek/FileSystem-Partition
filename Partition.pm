@@ -138,6 +138,18 @@ FileSystem::Partition - Perl module for filesystem informations.
 
 =back
 
+=head1 ERRORS
+
+ new():
+         Bad number of information columns.
+                 Line: %s
+         Cannot create Text::CSV object.
+                 Error: %s
+         Cannot parse line '%s'.
+                 Error input: %s
+         From Class::Utils::set_params():
+                 Unknown parameter '%s'.
+
 =head1 EXAMPLE
 
  # Pragmas.
