@@ -50,7 +50,7 @@ EXAMPLE
      # Wikipedia URL: http://en.wikipedia.org/w/index.php?title=Partition_type&oldid=489195494
 
 DEPENDENCIES
-    Class::Utils, Error::Pure.
+    Class::Utils, Error::Pure, Text::CSV.
 
 REPOSITORY
     <https://github.com/tupinek/FileSystem-Partition>

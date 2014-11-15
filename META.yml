@@ -28,6 +28,7 @@ no_index:
 requires:
   Class::Utils: 0.06
   Error::Pure: 0.17
+  Text::CSV: 0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=FileSystem-Partition
   homepage: https://github.com/tupinek/FileSystem-Partition

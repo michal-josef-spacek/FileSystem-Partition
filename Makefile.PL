@@ -12,6 +12,7 @@ license 'bsd';
 name 'FileSystem-Partition';
 requires 'Class::Utils' => 0.06;
 requires 'Error::Pure' => 0.17;
+requires 'Text::CSV' => 0;
 readme_from 'Partition.pm';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=FileSystem-Partition';
