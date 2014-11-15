@@ -164,10 +164,6 @@ FileSystem::Partition - Perl module for filesystem informations.
 L<Class::Utils>,
 L<Error::Pure>.
 
-=head1 SEE ALSO
-
-TODO
-
 =head1 REPOSITORY
 
 L<https://github.com/tupinek/FileSystem-Partition>

@@ -41,9 +41,6 @@ EXAMPLE
 DEPENDENCIES
     Class::Utils, Error::Pure.
 
-SEE ALSO
-    TODO
-
 REPOSITORY
     <https://github.com/tupinek/FileSystem-Partition>
 
