@@ -19,7 +19,7 @@ sub new {
 	my $self = bless {}, $class;
 
 	# FileSystem structure.
-	$self->{'fs'} = undef;
+	$self->{'fs'} = {};
 
 	# Process params.
 	set_params($self, @params);
