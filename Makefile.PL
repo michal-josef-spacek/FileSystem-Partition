@@ -19,13 +19,12 @@ resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=FileSystem-Partition';
 resources 'homepage' => 'https://github.com/tupinek/FileSystem-Partition';
 resources 'repository' => 'git://github.com/tupinek/FileSystem-Partition';
-#test_requires 'Cwd' => 0;
-#test_requires 'English' => 0;
-#test_requires 'File::Spec::Functions' => 0;
-#test_requires 'FindBin' => 0;
-#test_requires 'Test::More' => 0;
-#test_requires 'Test::Pod' => 0;
-#test_requires 'Test::Pod::Coverage' => 0;
+test_requires 'English' => 0;
+test_requires 'File::Object' => 0;
+test_requires 'Test::More' => 0;
+test_requires 'Test::NoWarnings' => 0;
+test_requires 'Test::Pod' => 0;
+test_requires 'Test::Pod::Coverage' => 0;
 tests_recursive;
 version '0.01';
 
