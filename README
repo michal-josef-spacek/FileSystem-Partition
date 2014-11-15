@@ -11,12 +11,22 @@ SUBROUTINES
     "new(%parameters)"
              Constructor.
 
+            *       "fs"
+
+                     FileSystem structure.
+                     Structure is hash reference with partition ID as key and filesystem structure
+                     as value.
+                     Default value is {}.
+
     "get([$id])"
              Get filesystem informations for one or all ids.
-             Returns reference to hash structure with infor TODO
+             Returns reference to hash structure with information about filesystem
+             partition in mode for one id.
+             Returns array of hash references to all filesystem partition types.
 
     "wikipedia_version()"
-             TODO
+             Get URL of Wikipedia page.
+             Returns 'http://en.wikipedia.org/w/index.php?title=Partition_type&oldid=489195494'.
 
 ERRORS
      new():
