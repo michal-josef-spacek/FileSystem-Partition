@@ -1,0 +1,50 @@
+NAME
+    FileSystem::Partition - Perl module for filesystem informations.
+
+SYNOPSIS
+     use FileSystem::Partition;
+     my $obj = FileSystem::Partition->new(%parameters);
+     my $fs_hr = $obj->get([$id]);
+     my $wikipedia_url = $obj->wikipedia_version;
+
+SUBROUTINES
+    new(%parameters)
+             Constructor.
+
+    get([$id])
+             Get filesystem informations for one or all ids.
+             Returns reference to hash structure with infor TODO
+
+    wikipedia_version()
+             TODO
+
+EXAMPLE1
+     # Pragmas.
+     use strict;
+     use warnings;
+
+     # Modules.
+     use FileSystem::Partition;
+
+     TODO
+
+DEPENDENCIES
+    English, Error::Pure::Utils, Exporter, Readonly.
+
+SEE ALSO
+    TODO
+
+REPOSITORY
+    <https://github.com/tupinek/FileSystem-Partition>
+
+AUTHOR
+    Michal Špaček <mailto:skim@cpan.org>
+
+    <http://skim.cz>
+
+LICENSE AND COPYRIGHT
+    BSD license.
+
+VERSION
+    0.01
+
