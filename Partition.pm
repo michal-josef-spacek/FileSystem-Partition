@@ -119,7 +119,7 @@ FileSystem::Partition - Perl module for filesystem informations.
 
 =over 8
 
-=item B<new(%parameters)>
+=item C<new(%parameters)>
 
  Constructor.
 
@@ -127,12 +127,12 @@ FileSystem::Partition - Perl module for filesystem informations.
 
 =back
 
-=item B<get([$id])>
+=item C<get([$id])>
 
  Get filesystem informations for one or all ids.
  Returns reference to hash structure with infor TODO
 
-=item B<wikipedia_version()>
+=item C<wikipedia_version()>
 
  TODO
 
